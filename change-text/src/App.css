@@ -1,0 +1,31 @@
+.App {
+  background-color: lightgrey;
+  min-height: 100vh;
+}
+
+.Nav {
+  text-align: center;
+  background-color: #282c34;
+  min-height: 10vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: top;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.firm-title {
+  text-align: center;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 10vw 40vw;
+  justify-content: center;
+  align-self: center;
+}
+
+p {
+  margin-left: 1vw;
+}
