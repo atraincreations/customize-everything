@@ -21,7 +21,7 @@
 
 .grid-container {
   display: grid;
-  grid-template-columns: 10vw 40vw;
+  grid-template-columns: 15vw 40vw;
   justify-content: center;
   align-self: center;
 }
