@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 
+
 class Search extends Component{
     constructor(props) {
         super(props)
@@ -14,6 +15,21 @@ class Search extends Component{
         this.setState({
             search: event.target.value
         })
+        const fs = require('fs');
+
+        fs.readFile('./Data.json', 'utf-8', (err, jsonString) => {
+            if (err) {
+                console.log(err);
+            } else {
+                try {
+                    const data = JSON.parse(jsonString);
+                    console.log(data.this.state.choice);
+                } catch (err) {
+                    console.log('Error parsing JSON', err);
+                }
+            }
+        })
+
     }
     
     handleChoiceChange = event => {

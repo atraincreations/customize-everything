@@ -5,7 +5,8 @@ class Firm extends Component {
         super(props)
     
         this.state = {
-             
+             firm: "firm name here",
+             email: "email here"
         }
     }
 
@@ -17,7 +18,9 @@ class Firm extends Component {
                 </div>
                 <div className='grid-container'>
                     <h4>Firm Name:</h4>
-                    <p>firm name here</p>
+                    <p>{this.state.firm}</p>
+                    <h4>Email Address:</h4>
+                    <p>{this.state.email}</p>
                     <h4>Address:</h4>
                     <p>address here</p>
                     <h4>Phone Number:</h4>

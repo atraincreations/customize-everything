@@ -1,0 +1,31 @@
+{
+  "firmData": [
+    {
+      "name": "Darrell Strongwallet",
+      "email": "dmoney@dollarbills.com",
+      "address": "Syracuse, NY",
+      "phone": "555-8989",
+      "disclaimer": "I'll make you money, just trust me.",
+      "advisor count": 2,
+      "admin count": 2
+    },
+    {
+      "name": "Tim Cash",
+      "email": "timmy@cash.com",
+      "address": "New York City, NY",
+      "phone": "555-0123",
+      "disclaimer": "Products may cause ulcers.",
+      "advisor count": 3,
+      "admin count": 1
+    },
+    {
+      "name": "Guy Richards",
+      "email": "coolguy@bankrolls.com",
+      "address": "Salt Lake City, UT",
+      "phone": "555-9153",
+      "disclaimer": "I'm the Guy to get you paid (but I can't make promises)!",
+      "advisor count": 1,
+      "admin count": 0
+    }
+  ]
+}
